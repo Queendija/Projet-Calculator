@@ -35,7 +35,7 @@ public class Calculatrice {
 	
 	public int maxElement(int [] list)throws Exception  {
 		Arrays.sort(list);
-		if(list.length>0)  throw new Exception("la liste ne doit pas etre vide");
+		if(list.length>0)  throw new Exception("la liste ne doit pas etre vide.Donner une liste non vide");
 		return list[list.length-1];
 		
 		
